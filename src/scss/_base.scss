@@ -14,11 +14,35 @@ a {
     text-decoration: none;
     color: $colorText;
 }
+span {
+    font-weight: 600;
+}
 .title {
     font-weight: 700;
     font-size: $sizeTitle;
 }
+.anime-figure {
+    width: 400px;
+    height: 350px;
+    border-radius: $sizeRadius;
+}
+.button {
+    padding: 10px 50px;
+    border-radius: $sizeRadius;
+    font-size: $sizeNormal;
+    border: none;
 
+    &--dark {
+        color: #fff;
+        background: $secondaryPurple;
+    }
+}
 .block {
     padding: $paddingInBlock;
+
+    &__title {
+        font-size: $sizeTitleOfBlock;
+        text-align: center;
+        padding: 20px 0px;
+    }
 }
