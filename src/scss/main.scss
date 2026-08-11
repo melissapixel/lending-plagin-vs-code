@@ -29,3 +29,22 @@
         }
     }
 }
+
+.hero {
+    &__info  {
+        display: flex;
+        justify-content: space-between;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+            p:first-child {
+                max-width: 600px;
+            }
+
+        }
+    }
+}
