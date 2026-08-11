@@ -34,14 +34,24 @@ a {
 
     padding-top: 20px;
     background: $secondaryPurple;
+
+    &__section-links {
+        font-size: $sizeLittle;
+    }
 }
 
 .footer {
     &__section-links {
         display: flex;
         justify-content: space-around;
+
+        font-size: $sizeMin;
     }
     &__section {
         background: $darkPurple;
+
+        .footer_text {
+            font-size: $sizeLittle;
+        }
     }
 }
