@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: $darkPurple;
+    color: $colorText;
+    font-size: $sizeNormal;
+}
+a {
+    text-decoration: none;
+    color: $colorText;
+}
+.title {
+    font-weight: 700;
+    font-size: $sizeTitle;
+}
+
+.block {
+    padding: $paddingInBlock;
+}
