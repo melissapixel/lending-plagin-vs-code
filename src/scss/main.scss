@@ -67,5 +67,32 @@
     }
 }
 
+.trust {
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .card {
+            display: flex;
+            // justify-content:space-around;
+            background: #fff;
+            color: $secondaryPurple;
+            padding: 10px;
+            border-radius: $sizeRadius;
+            font-size: $sizeMin;
+
+            &__icon {
+                width: 100px;
+                padding: 0px 10px;
+            }
+            &__text {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
 
 
