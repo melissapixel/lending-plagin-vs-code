@@ -48,3 +48,24 @@
         }
     }
 }
+
+.legend {
+    &__info  {
+        display: flex;
+        justify-content: space-between;
+        font-size: $sizeMin;
+        gap: 100px;
+        align-items: center;
+    }
+
+    &__quote  {
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+
+
