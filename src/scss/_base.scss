@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: $darkPurple;
     color: $colorText;
     font-size: $sizeNormal;
@@ -37,6 +37,34 @@ span {
         background: $secondaryPurple;
     }
 }
+.container-cards {
+    display: flex;
+    // justify-content: ;
+    // flex-wrap: wrap;
+    gap: 60px;
+
+    .card {
+        background: $secondaryPurple;
+        padding: 20px;
+        max-width: 500px;
+        min-width: 400px;
+        border-radius: $sizeRadius;
+
+        &__title {
+            text-align: center;
+        }
+
+        &__list {
+            font-size: $sizeMin;
+            // padding-top: 10px;
+
+            ul, li {
+                padding: 10px;
+                list-style-type: none;  
+            }
+        }
+    }
+}
 .block {
     padding: $paddingInBlock;
 
@@ -44,5 +72,23 @@ span {
         font-size: $sizeTitleOfBlock;
         text-align: center;
         padding: 20px 0px;
+
+        &-text {
+            font-size: $sizeNormal;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+    }
+}
+.disclaimer {
+    font-size: $sizeMin;
+    margin: 25px 0px;
+}
+.quote {
+    font-style: italic;
+    &-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
     }
 }
