@@ -1,5 +1,8 @@
-@import "_variables";
-@import "_base";
+@use 'functions' as *;
+
+@use "variables" as *;
+@use "base";
+
 
 .header, .footer__section {
     display: flex;
